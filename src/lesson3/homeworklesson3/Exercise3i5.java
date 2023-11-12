@@ -1,4 +1,4 @@
 package lesson3.homeworklesson3;
 
-public class Exercise33 {
+public class Exercise3i5 {
 }

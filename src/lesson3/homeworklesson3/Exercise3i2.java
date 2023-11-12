@@ -1,6 +1,6 @@
 package lesson3.homeworklesson3;
 
-public class Exercise32 {
+public class Exercise3i2 {
     public static void main(String[] args) {
 
         int x = 0;
