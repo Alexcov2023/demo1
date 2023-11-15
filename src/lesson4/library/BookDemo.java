@@ -25,8 +25,6 @@ public class BookDemo {
         System.out.println("---------------------------------------------------------------------");
 
         book2.metod2();
-        book2.metod3();
-
 
     }
 }

@@ -46,10 +46,6 @@ public class Book {
 
     }
 
-    public void metod3(){
-        System.out.println();
-
-    }
 }
 
 
