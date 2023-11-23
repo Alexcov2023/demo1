@@ -17,4 +17,10 @@ public class BookUtil {
 
     }
 
+    public Book copyBook (Book book) {
+        Book copyBook = new Book(book.autor, book.bookTitle + " (copy)", book.numberOfPages, book.catalogNumber, book.readerPossession);
+        return copyBook;
+    }
+
+
 }
