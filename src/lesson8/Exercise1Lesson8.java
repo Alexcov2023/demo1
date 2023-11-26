@@ -28,10 +28,8 @@ public class Exercise1Lesson8 {
       int[] intArray = new int[arraySize];
 
       for (int i = 0; i < intArray.length; i++) {
-        intArray[i] = random.nextInt(100);
-        //System.out.println("Please enter " + i + " element of array");
-        //intArray[i] = scanner.nextInt();
-      }
+        intArray[i] = random.nextInt(20);
+            }
 
       System.out.println(Arrays.toString(intArray));
 
@@ -39,7 +37,6 @@ public class Exercise1Lesson8 {
 
       int max = intArray[0];
       int indexMax = 0;
-
       for (int i = 0; i < intArray.length; i++) {
         if (intArray[i] > max) {
           max = intArray[i];
@@ -52,12 +49,30 @@ public class Exercise1Lesson8 {
       //---------------------------------------------------
 
       int sum = 0;
-
       for (int i = 0; i < intArray.length; i++) {
         sum = sum + intArray[i];
               }
 
       System.out.println("Cуммa всех элементов массива = " + sum);
+
+      // -----------------------------------------------------
+
+      int conter = 0;
+      for (int i = 0; i < intArray.length; i++) {
+        if (intArray[i] == max) {
+          conter++;
+        }
+      }
+
+      int contIndex = 0;
+      int[] indexArray = new int[conter];
+      for (int i = 0; i < intArray.length; i++) {
+        if (intArray[i] == max) {
+          indexArray[contIndex] = i;
+          contIndex++;
+        }
+      }
+      System.out.println("Массив из индексов, если макс. значение в основном массиве повторяется = " + Arrays.toString(indexArray));
 
     }
 }

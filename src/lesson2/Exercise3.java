@@ -16,6 +16,11 @@ public class Exercise3 {
            System.out.println(x + "," + y + "," + z);
 
 
+
+
+
+
+
         }
 }
 
