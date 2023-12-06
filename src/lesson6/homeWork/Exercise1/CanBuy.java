@@ -1,4 +1,6 @@
-package lesson6.homeWork.exercise1;
+package lesson6.homeWork.Exercise1;
+
+import lesson6.homeWork.Exercise1.CanBuyMethod;
 
 public class CanBuy {
     public static void main(String[] args) {
