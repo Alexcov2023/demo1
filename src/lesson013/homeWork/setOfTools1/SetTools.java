@@ -1,6 +1,4 @@
-package lesson13.homeWork.setOfTools1;
-
-import java.util.Scanner;
+package lesson013.homeWork.setOfTools1;
 
 public class SetTools {
     String tool1;

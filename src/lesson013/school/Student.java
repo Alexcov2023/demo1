@@ -1,4 +1,4 @@
-package lesson13.lessonCode.school;
+package lesson013.school;
 
 public class Student {
     String name;

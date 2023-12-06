@@ -1,6 +1,4 @@
-package lesson13.homeWork.setStore;
-
-import java.util.Arrays;
+package lesson013.homeWork.setStore;
 
 public class SetToolsShop {
     public static void main(String[] args) {

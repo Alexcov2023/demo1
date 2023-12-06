@@ -1,4 +1,4 @@
-package lesson13.homeWork.setStore;
+package lesson013.homeWork.setStore;
 
 import java.util.Scanner;
 
