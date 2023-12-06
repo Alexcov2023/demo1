@@ -1,4 +1,4 @@
-package lesson013.homeWork.setStore;
+package lesson13.homeWork.setStore;
 
 public class SetToolsShop {
     public static void main(String[] args) {

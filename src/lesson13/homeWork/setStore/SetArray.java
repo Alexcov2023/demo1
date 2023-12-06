@@ -1,4 +1,4 @@
-package lesson013.homeWork.setStore;
+package lesson13.homeWork.setStore;
 
 public class SetArray {
     SetTools[] setTools = new SetTools[3];
