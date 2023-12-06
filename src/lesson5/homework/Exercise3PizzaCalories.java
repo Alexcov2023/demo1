@@ -1,4 +1,4 @@
-package lesson5.homework;
+package lesson5.homeWork;
 
 public class Exercise3PizzaCalories {
 
