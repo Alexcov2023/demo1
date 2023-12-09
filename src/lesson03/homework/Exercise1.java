@@ -2,8 +2,16 @@ package lesson03.homework;
 
 public class Exercise1 {
     public static void main(String[] args) {
-        System.out.println("Меня зовут Александр.");
-        System.out.println("Мне 42 года.");
-        System.out.println("Я из Молдовы.");
+
+        String name = "Александр";
+        int age = 42;
+        String country = "Молдовы";
+
+
+
+
+        System.out.println("Меня зовут " + name);
+        System.out.println("Мне " + age + " года");
+        System.out.println("Я из " + country);
     }
 }
