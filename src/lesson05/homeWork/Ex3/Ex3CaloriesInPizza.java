@@ -1,10 +1,9 @@
-package lesson05.homeWork;
+package lesson05.homeWork.Ex3;
 
-public class Exercise3PizzaCalories {
+public class Ex3CaloriesInPizza {
 
     public double caloriesInPizza(double diameter, double caloriesInOneCm){
         double squarePizza = Math.PI * (diameter / 2) * (diameter / 2);
-        double totalCalories = caloriesInOneCm * squarePizza;
-        return totalCalories;
+        return caloriesInOneCm * squarePizza;
     }
 }
