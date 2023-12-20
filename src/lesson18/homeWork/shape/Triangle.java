@@ -1,4 +1,4 @@
-package lesson18.shape;
+package lesson18.homeWork.shape;
 
 public class Triangle extends Shape{
 

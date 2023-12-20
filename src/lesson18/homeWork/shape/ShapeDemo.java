@@ -1,6 +1,4 @@
-package lesson18.shape;
-
-import java.util.Arrays;
+package lesson18.homeWork.shape;
 
 public class ShapeDemo {
     public static void main(String[] args) {
