@@ -18,20 +18,20 @@ public class ShapeDemo {
         Triangle triangle2 = new Triangle("Triangle2", 3, 4,5, 3.5);
         Triangle triangle3 = new Triangle("Triangle3", 5, 6,7, 4.5);
 
-        Shape[] shapes = {circle1,circle2,circle3,square1,square2,square3,rectangle1,rectangle2,rectangle3, triangle1, triangle2, triangle3};
+        Shape[] allShapes = {circle1,circle2,circle3,square1,square2,square3,rectangle1,rectangle2,rectangle3, triangle1, triangle2, triangle3};
 
         ShapeService shapeService = new ShapeService();
-        Shape[] shapes2 = shapeService.shapes2Complete(shapes, 5, 10);
-        System.out.println("Полученный массив состоит из " + shapes2.length + " фигур");
+                Shape[] shapesRandom= shapeService.shapesRandomComplete(allShapes, 3, 7);
+        System.out.println("Полученный массив состоит из " + shapesRandom.length + " фигур");
 
         //Посчитать и вывести информацию о каждой фигуре и ее площади и периметры.
         double shapeArea = 0;
         double shapePerimeter = 0;
         String nameOfShape = null;
-        for (int i = 0; i < shapes2.length; i++) {
-            nameOfShape = shapes2[i].getTitle();
-            shapeArea = shapes2[i].calculatorArea();
-            shapePerimeter = shapes2[i].calculatorPerimeter();
+        for (int i = 0; i < shapesRandom.length; i++) {
+            nameOfShape = shapesRandom [i].getTitle();
+            shapeArea = shapesRandom[i].calculatorArea();
+            shapePerimeter = shapesRandom[i].calculatorPerimeter();
 
             System.out.println("Фигура " + (i+1) + " - " + nameOfShape);
             System.out.println("Площадь " + shapeArea);
@@ -41,18 +41,12 @@ public class ShapeDemo {
         // Посчитать суммарную площадь всех фигур
         double allAreas = 0;
         double allPerimeters = 0;
-        for (int i = 0; i < shapes2.length; i++) {
-            allAreas = allAreas + shapes2[i].calculatorArea();
-            allPerimeters = allPerimeters + shapes2[i].calculatorPerimeter();
+        for (int i = 0; i < shapesRandom.length; i++) {
+            allAreas = allAreas + shapesRandom[i].calculatorArea();
+            allPerimeters = allPerimeters + shapesRandom[i].calculatorPerimeter();
         }
         System.out.println("Сумма площадей всех фигур = " + allAreas);
         System.out.println("Сумма периметров всех фигур = " + allPerimeters);
-
-
-
-
-
-
 
     }
 }
