@@ -1,8 +1,8 @@
-package lesson07;
+package lesson07.homeWork.exercises;
 
 import java.util.Scanner;
 
-public class Exercise1 {
+public class Ex2 {
     /*
     Подсчитать сумму всех четных чисел от 0 до N
 при том что N вводится пользователем

@@ -1,8 +1,8 @@
-package lesson07;
+package lesson07.homeWork.exercises;
 
 import java.util.Scanner;
 
-public class Exercise5 {
+public class Ex4 {
  /*
  ользователь ввел число N. Подсчитайте количество четных
  и не четных чисел в диапазоне от 0 до N

@@ -1,6 +1,4 @@
-package lesson07.homeWork.ex1.liftOther;
-
-import lesson07.homeWork.ex1.liftOther.LiftOther;
+package lesson07.homeWork.exercises.Ex1LiftOther;
 
 public class LiftOtherDemo {
     public static void main(String[] args) {

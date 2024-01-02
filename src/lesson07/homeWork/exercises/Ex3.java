@@ -1,8 +1,8 @@
-package lesson07;
+package lesson07.homeWork.exercises;
 
 import java.util.Scanner;
 
-public class Exercise3 {
+public class Ex3 {
 
 
     public static void main(String[] args) {
@@ -17,7 +17,7 @@ public class Exercise3 {
         Scanner scanner = new Scanner(System.in);
         boolean condition = true;
 
-        while (condition) {
+       while (condition) {
             System.out.println("Please enter integer number");
             x = scanner.nextInt();
 
@@ -26,10 +26,9 @@ public class Exercise3 {
             } else {
                 System.out.println("Sum of number " + sum);
             }
+       }
 
-            }
-
-
-        }
 
     }
+
+}

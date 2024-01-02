@@ -1,6 +1,4 @@
-package lesson07.homeWork.ex1.lift;
-
-import lesson07.homeWork.ex1.lift.Lift;
+package lesson07.homeWork.exercises.Ex1Lift;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package lesson07.homeWork.ex1.lift;
+package lesson07.homeWork.exercises.Ex1Lift;
 
 public class Lift {
 
