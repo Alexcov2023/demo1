@@ -1,4 +1,4 @@
-package lesson11.homeWork.serch;
+package lesson11.homeWork.search;
 
 public class BinarSearchCode {
 

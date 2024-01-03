@@ -1,4 +1,4 @@
-package lesson11.homeWork.serch;
+package lesson11.homeWork.search;
 
 import java.util.Arrays;
 import java.util.Scanner;
