@@ -1,4 +1,4 @@
-package lesson11.lessoncode.sort.sort;
+package lesson11.homeWork.sort;
 
 public class ArraySortStudent {
 
