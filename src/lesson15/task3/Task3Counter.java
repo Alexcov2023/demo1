@@ -7,6 +7,7 @@ public class Task3Counter {
 
         if (input.length() != 0) {
             counter++;
+
             for (int i= 0; i < input.length(); i++) {
                 if (input.charAt(i) == ' ') {
                     counter++;

@@ -9,7 +9,7 @@ public class Task5 {
 Определите какой элемент является в этом массиве максимальным и
 сообщите индекс его последнего вхождения в массив.
      */
-    Random random = new Random();
+
     public static void main(String[] args) {
         int [] myArray = new int[12];
         int max = -15;
@@ -29,8 +29,8 @@ public class Task5 {
             }
 
         }
-        System.out.println(max);
-        System.out.println(indexMax);
+        System.out.println("Максимальным элементом в массиве является значение " + max);
+        System.out.println("Индекс его последнего вхождения в массив " + indexMax);
 
 
 

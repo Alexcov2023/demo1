@@ -20,17 +20,18 @@ public class Task1 {
         System.out.println(Arrays.toString(nArray));
         System.out.println("======================");
 
-/*     Это способ с использованием второго массива.
+     //Это способ с использованием второго массива.
 
         String[] reversenArray = new String[nArray.length];
 
          for (int i = 0; i < reversenArray.length; i++) {
              int j = reversenArray.length - 1 - i;
+             System.out.println(j);
              reversenArray [i] = nArray[j];
          }
         System.out.println(Arrays.toString(reversenArray));
 
- */
+
 
         /*
 Находим делением на 2 "срединую точку массива+1". При использовании символа "<" к этой "срединной отметке + 1" мы получим первую половину массива.
